@@ -5,11 +5,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.bundle = exports.fetch = exports.Plugins = exports.Loader = undefined;
 
-var _plugins = require('./src/plugins.js');
+var _plugins = require('./plugins.js');
 
 var _plugins2 = _interopRequireDefault(_plugins);
 
-var _loader = require('./src/loader.js');
+var _loader = require('./loader.js');
 
 var _loader2 = _interopRequireDefault(_loader);
 

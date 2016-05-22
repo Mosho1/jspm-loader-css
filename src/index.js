@@ -1,5 +1,5 @@
-import Plugins from './src/plugins.js';
-import Loader from './src/loader.js';
+import Plugins from './plugins.js';
+import Loader from './loader.js';
 
 const { fetch, bundle } = new Loader([
   Plugins.values,
