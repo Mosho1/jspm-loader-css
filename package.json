@@ -17,7 +17,8 @@
   "scripts": {
     "pretest": "npm run lint",
     "test": "ava --require babel-core/register",
-    "lint": "eslint src test"
+    "lint": "eslint src test",
+    "build": "babel src --out-dir build"
   },
   "repository": {
     "type": "git",
