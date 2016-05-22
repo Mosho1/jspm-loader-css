@@ -18,11 +18,12 @@ export default class CSSModuleLoaderProcess {
       )
       .then(({ injectableSource, exportTokens }) => {
         let exportedTokens;
+        const exportTokensString = JSON.stringify(exportTokens).replace(/"/g, '\\"');
         if (!System.production && typeof window !== 'undefined' && window.Proxy) {
           // During development, if supported, use a Proxy to detect missing CSS declarations.
           // Note the wrapping `'s - this is code exported as a string and executed later.
           exportedTokens = `
-            const styles = JSON.parse('${JSON.stringify(exportTokens)}');
+            const styles = JSON.parse('${exportTokensString}');
             const propertyWhitelist = ['__esModule', 'then', 'default', 'trim'];
             const proxy = new Proxy(styles, {
               get: function(target, name) {
@@ -37,7 +38,7 @@ export default class CSSModuleLoaderProcess {
             module.exports = proxy;
         `;
         } else {
-          exportedTokens = `module.exports = ${JSON.stringify(exportTokens)};`;
+          exportedTokens = `module.exports = ${exportTokensString};`;
         }
 
         return {

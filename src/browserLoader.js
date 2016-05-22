@@ -55,6 +55,14 @@ export default class BrowserLoader extends AbstractLoader {
   }
 
   _appendLink(styleSheet, resolve, reject) {
+
+    const existing = document.getElementById(styleSheet.name); 
+    if (existing) {
+      existing.href = styleSheet.blobUrl;
+      resolve(styleSheet);
+      return;
+    }
+
     const link = document.createElement('link');
     link.id = styleSheet.name;
     link.rel = 'stylesheet';
