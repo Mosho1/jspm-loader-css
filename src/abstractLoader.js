@@ -54,7 +54,7 @@ export default class CSSModuleLoaderProcess {
   // and trigger the import (which will instantiate this loader once more)
   _fetchDependencies(rawDependencyPath, relativeToPath) {
     const formattedDependencyPath = this._removeWrappingQuotes(rawDependencyPath);
-    const canonicalParent = relativeToPath.replace(/^(C:)?\//, '');
+    const canonicalParent = relativeToPath.replace(/^(\w:)?\//i, '');
 
 
     return System.normalize(formattedDependencyPath, `${System.baseURL}${canonicalParent}`)
