@@ -65,7 +65,7 @@ var CSSModuleLoaderProcess = function () {
     value: function _fetchDependencies(rawDependencyPath, relativeToPath) {
       var formattedDependencyPath = this._removeWrappingQuotes(rawDependencyPath);
       relativeToPath = relativeToPath.replace(/^\w:/i, '');
-      var canonicalParent = relativeToPath.replace(/^\//i, '');
+      var canonicalParent = relativeToPath.replace(/^[\/\\]/i, '');
 
       return System.normalize(formattedDependencyPath, '' + System.baseURL + canonicalParent).then(System.import.bind(System)).then(function (exportedTokens) {
         return exportedTokens.default || exportedTokens;
