@@ -62,11 +62,7 @@ export default class NodeLoader extends AbstractLoader {
     }
     /*eslint-enable  no-console */
 
-    return cssnano.process(this._injectableSources.join('\n'), {
-      // A full list of options can be found here: http://cssnano.co/options/
-      // safe: true ensures no optimizations are applied which could potentially break the output.
-      safe: true
-    }).then((result) => {
+
       // Take all of the CSS files which need to be output and generate a fake System registration for them.
       // This will make System believe all files exist as needed.
       // Then, take the combined output of all the CSS files and generate a single <style> tag holding all the info.
@@ -74,7 +70,7 @@ export default class NodeLoader extends AbstractLoader {
         .map((load) => emptySystemRegister(compileOpts.systemGlobal || 'System', load.name))
         .join('\n');
 
-      return `${fileDefinitions}${cssInjectFunction}('${escape(result.css)}');`;
-    });
+      return `${fileDefinitions}${cssInjectFunction}('${escape(this._injectableSources.join('\n'))}');`;
+ 
   }
 }
