@@ -83,11 +83,6 @@ var NodeLoader = function (_AbstractLoader) {
       }
       /*eslint-enable  no-console */
 
-      return _cssnano2.default.process(this._injectableSources.join('\n'), {
-        // A full list of options can be found here: http://cssnano.co/options/
-        // safe: true ensures no optimizations are applied which could potentially break the output.
-        safe: true
-      }).then(function (result) {
         // Take all of the CSS files which need to be output and generate a fake System registration for them.
         // This will make System believe all files exist as needed.
         // Then, take the combined output of all the CSS files and generate a single <style> tag holding all the info.
@@ -95,8 +90,8 @@ var NodeLoader = function (_AbstractLoader) {
           return emptySystemRegister(compileOpts.systemGlobal || 'System', load.name);
         }).join('\n');
 
-        return '' + fileDefinitions + cssInjectFunction + '(\'' + escape(result.css) + '\');';
-      });
+        return Promise.resolve('' + fileDefinitions + cssInjectFunction + '(\'' + escape(this._injectableSources.join('\n')) + '\');');
+      
     }
   }]);
 
