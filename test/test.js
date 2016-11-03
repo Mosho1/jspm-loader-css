@@ -1,3 +1,5 @@
+/* */ 
+"format cjs";
 import test from 'ava';
 import jspmLoaderCss from '../index.js';
 

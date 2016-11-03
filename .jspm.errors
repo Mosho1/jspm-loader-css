@@ -1,0 +1,81 @@
+MultipleErrors: C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/abstractLoader.js:2:1: Unexpected reserved word import
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/abstractLoader.js:2:8: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/abstractLoader.js:2:29: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/abstractLoader.js:2:34: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/abstractLoader.js:4:1: Unexpected reserved word export
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/abstractLoader.js:4:8: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/abstractLoader.js:4:8: Unexpected reserved word default
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/abstractLoader.js:4:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/browserLoader.js:2:1: Unexpected reserved word import
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/browserLoader.js:2:8: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/browserLoader.js:2:23: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/browserLoader.js:2:28: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/browserLoader.js:4:1: Unexpected reserved word export
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/browserLoader.js:4:8: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/browserLoader.js:4:8: Unexpected reserved word default
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/browserLoader.js:4:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/loader.js:1:1: Unexpected reserved word import
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/loader.js:1:8: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/loader.js:1:19: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/loader.js:1:24: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/loader.js:2:1: Unexpected reserved word import
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/loader.js:2:8: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/loader.js:2:22: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/loader.js:2:27: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/loader.js:4:1: Unexpected reserved word export
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/loader.js:4:8: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/loader.js:4:8: Unexpected reserved word default
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/loader.js:4:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/nodeLoader.js:2:1: Unexpected reserved word import
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/nodeLoader.js:2:8: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/nodeLoader.js:2:23: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/nodeLoader.js:2:28: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/nodeLoader.js:3:1: Unexpected reserved word import
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/nodeLoader.js:3:8: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/nodeLoader.js:3:16: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/nodeLoader.js:3:21: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/nodeLoader.js:30:1: Unexpected reserved word export
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/nodeLoader.js:30:8: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/nodeLoader.js:30:8: Unexpected reserved word default
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/nodeLoader.js:30:16: Semi-colon expected
+
+MultipleErrors: C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/plugins.js:1:1: Unexpected reserved word import
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/plugins.js:1:8: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/plugins.js:1:29: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/plugins.js:1:34: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/plugins.js:3:1: Unexpected reserved word export
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/plugins.js:3:8: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/plugins.js:3:8: Unexpected reserved word default
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/plugins.js:3:16: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/plugins.js:5:17: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/plugins.js:5:17: Unexpected token :
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/plugins.js:5:19: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/plugins.js:6:17: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/plugins.js:6:17: Unexpected token :
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/plugins.js:6:19: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/plugins.js:7:8: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/plugins.js:7:8: Unexpected token :
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/plugins.js:7:10: Semi-colon expected
+
+MultipleErrors: C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/test/test.js:1:1: Unexpected reserved word import
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/test/test.js:1:8: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/test/test.js:1:13: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/test/test.js:1:18: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/test/test.js:2:1: Unexpected reserved word import
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/test/test.js:2:8: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/test/test.js:2:22: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/test/test.js:2:27: Semi-colon expected
+
+MultipleErrors: C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/index.js:1:1: Unexpected reserved word import
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/index.js:1:8: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/index.js:1:16: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/index.js:1:21: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/index.js:2:1: Unexpected reserved word import
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/index.js:2:8: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/index.js:2:15: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/index.js:2:20: Semi-colon expected
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/index.js:11:1: Unexpected reserved word export
+C:/Users/Sharon/AppData/Local/.jspm/packages/github/Mosho1/jspm-loader-css@1.1.7/src/index.js:11:8: Semi-colon expected

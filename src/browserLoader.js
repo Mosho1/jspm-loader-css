@@ -1,3 +1,5 @@
+/* */ 
+"format cjs";
 /* eslint-env browser */
 import AbstractLoader from './abstractLoader.js';
 

@@ -1,3 +1,5 @@
+/* */ 
+"format cjs";
 import Plugins from './plugins.js';
 import Loader from './loader.js';
 

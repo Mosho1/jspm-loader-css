@@ -1,3 +1,5 @@
+/* */ 
+"format cjs";
 import CssModulesLoaderCore from 'css-modules-loader-core';
 
 export default {

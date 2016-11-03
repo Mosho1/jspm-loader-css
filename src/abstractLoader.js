@@ -1,3 +1,5 @@
+/* */ 
+"format cjs";
 /* eslint-env node, browser */
 import CssModulesLoaderCore from 'css-modules-loader-core';
 
@@ -29,7 +31,7 @@ export default class CSSModuleLoaderProcess {
             const proxy = new Proxy(styles, {
               get: function(target, name) {
                 if(!target.hasOwnProperty(name) && !propertyWhitelist.includes(name)) {
-                  console.warn('Styles lookup at key: ' + name.toString() + ' found no CSS.');
+                  console.warn('Styles lookup at key: ' + name + ' found no CSS.');
                 }
               
                 return target[name];

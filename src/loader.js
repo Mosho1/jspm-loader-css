@@ -1,3 +1,5 @@
+/* */ 
+"format cjs";
 import NodeLoader from './nodeLoader.js';
 import BrowserLoader from './browserLoader.js';
 

@@ -1,3 +1,4 @@
+/* */ 
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -44,7 +45,7 @@ var CSSModuleLoaderProcess = function () {
           var exportTokensString = JSON.stringify(exportTokens).replace(/"/g, '\\"');
           // During development, if supported, use a Proxy to detect missing CSS declarations.
           // Note the wrapping `'s - this is code exported as a string and executed later.
-          exportedTokens = '\n            const styles = JSON.parse(\'' + exportTokensString + '\');\n            const propertyWhitelist = [\'__esModule\', \'then\', \'default\', \'trim\'];\n            const proxy = new Proxy(styles, {\n              get: function(target, name) {\n                if(!target.hasOwnProperty(name) && !propertyWhitelist.includes(name)) {\n                  console.warn(\'Styles lookup at key: \' + name.toString() + \' found no CSS.\');\n                }\n              \n                return target[name];\n              }\n            });\n          \n            module.exports = proxy;\n        ';
+          exportedTokens = '\n            const styles = JSON.parse(\'' + exportTokensString + '\');\n            const propertyWhitelist = [\'__esModule\', \'then\', \'default\', \'trim\'];\n            const proxy = new Proxy(styles, {\n              get: function(target, name) {\n                if(!target.hasOwnProperty(name) && !propertyWhitelist.includes(name)) {\n              \n                }\n              \n                return target[name];\n              }\n            });\n          \n            module.exports = proxy;\n        ';
         } else {
           exportedTokens = 'module.exports = ' + JSON.stringify(exportTokens) + ';';
         }
@@ -65,8 +66,7 @@ var CSSModuleLoaderProcess = function () {
     value: function _fetchDependencies(rawDependencyPath, relativeToPath) {
       var formattedDependencyPath = this._removeWrappingQuotes(rawDependencyPath);
       relativeToPath = relativeToPath.replace(/^\w:/i, '');
-      var canonicalParent = relativeToPath.replace(/^[\/\\]/i, '');
-
+      var canonicalParent = relativeToPath.replace(/^[\/\\]/i, '').replace(/\\/g, '/');
       return System.normalize(formattedDependencyPath, '' + System.baseURL + canonicalParent).then(System.import.bind(System)).then(function (exportedTokens) {
         return exportedTokens.default || exportedTokens;
       });

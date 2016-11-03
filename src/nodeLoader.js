@@ -1,3 +1,5 @@
+/* */ 
+"format cjs";
 /* eslint-env node */
 import AbstractLoader from './abstractLoader.js';
 import cssnano from 'cssnano';
